@@ -1,0 +1,31 @@
+.Null-Expenses {
+  margin: 1rem;
+  height: 570px;
+  font-size: 50px;
+  color: white;
+  font-weight: bold;
+  background-color: burlywood;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.expenses-list {
+  list-style: none;
+  height: 21.75rem;
+  padding: 0;
+  overflow: auto;
+}
+
+.expenses-list::-webkit-scrollbar {
+  width: 10px;
+}
+.expenses-list::-webkit-scrollbar-thumb {
+  background-color: #2f3542;
+  border-radius: 10px;
+  background-clip: padding-box;
+}
+.expenses-list::-webkit-scrollbar-track {
+  background-color: gray;
+  box-shadow: inset 0px 0px 5px white;
+}
